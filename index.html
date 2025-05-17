@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="section-1">
+        <nav class="navbar navbar-expand-lg navbar-light navbarfirst">
+          <div class="container-fluid">
+            <a id="logo" class="navbar-brand" href="#"
+              ><img
+                src="/assets/logos/hijab_by_hadil_logo-removebg-preview.png"
+                alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Hijabs
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Accessories</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >About us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Contact us</a
+                  >
+                </li>
+              </ul>
+              <div class="search-box">
+                <input type="text" placeholder="Search for products..." />
+                <button type="submit">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="white"
+                  >
+                    <path
+                      d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.5 19l-5-5zm-6 0C8.01 14 6 11.99 6 9.5S8.01 5 10.5 5 15 7.01 15 9.5 12.99 14 10.5 14z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <!-- Cart Icon Container -->
+              <div class="cart-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="cart-icon"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 
+    0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.01 
+    9h13.35c.75 0 1.2.85.84 1.5l-3.58 6.49c-.36.65-1.03 1.01-1.77 
+    1.01H8.1c-.8 0-1.52-.48-1.83-1.22L3.1 4H1V2h3c.6 0 
+    1.13.36 1.34.91L5.6 6h13.36l-1.25 2.25H7.01z"
+                  />
+                </svg>
+                <span class="cart-count" id="cart-count">0</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="hero">
+          <div class="hero-text">
+            <h4>Welcome to Hijabs. by Hadil</h4>
+            <h1>
+              The Ultimate <br />
+              Hijab Collection
+            </h1>
+            <button class="btn btn-primary">Shop Now</button>
+          </div>
+        </div>
+        <div class="wave">
+          <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+            <path
+              d="M0,40 C360,120 1080,0 1440,60 L1440,100 L0,100 Z"
+              fill="white"
+            ></path>
+          </svg>
+        </div>
+        <!-- </section> -->
+      </div>
+      <div class="section-2">
+        <nav class="navbar navbar-light shopbycategory">
+          <div class="container-fluid">
+            <a class="navbar-brand">Shop by Category</a>
+            <form class="d-flex">
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              <button class="btn btn-outline-success">view all</button>
+            </form>
+          </div>
+        </nav>
+
+        <div class="category-grid">
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="/assets/images/section-1bg.jpg"
+              alt="Accessories for Hijab"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="section-3">
+        <div class="overlay"></div>
+
+        <div class="container content">
+          <div class="row">
+            <div class="col-12"><div class="divider-line"></div></div>
+            <div class="col-6">
+              <img
+                src="/assets/logos/hijab_by_hadil_logo-removebg-preview.png"
+                alt=""
+              />
+            </div>
+            <div class="col-6">
+              <div class="container">
+                <div class="row">
+                  <div class="col-33">
+                    <h1>Welcome to Our Store</h1>
+                    <p>
+                      Hijabs. by Hadil, where modesty meets fashion, and
+                      individuality finds its expression. We are more than just
+                      a hijab store; we are a celebration of diversity,
+                      empowering women to embrace their unique style with
+                      confidence.
+                    </p>
+                  </div>
+                  <!-- <div class="col-3 ">.col-6 .col-sm-4</div> -->
+
+                  <!-- Force next columns to break to new line at md breakpoint and up -->
+                  <div class="w-100 d-none d-md-block"></div>
+
+                  <div class="col-33">
+                    <h1>Our Story</h1>
+                    <p>
+                      Hijabs. by Hadil was born out of a passion for providing
+                      women with an exquisite and diverse range of hijabs that
+                      beautifully blend tradition with contemporary style.
+                      Founded by Sameena, our journey began with the vision to
+                      redefine modest fashion, offering curated collections that
+                      cater to the modern, confident, and discerning woman.
+                    </p>
+                    <button type="button" class="btn btn-outline-success">
+                      Read more
+                    </button>
+                  </div>
+                  <!-- <div class="col-3 ">.col-6 .col-sm-4</div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cardicon">
+                <img src="/assets/logos/lock.svg" alt="" />
+              </div>
+              <h2>Secure Payment</h2>
+              <p>
+                Shop confidently with our secure payment options, ensuring the
+                safety of your transactions.
+              </p>
+            </div>
+            <div class="col colu">
+              <div class="cardicon">
+                <img src="/assets/logos/parcel.svg" alt="" />
+              </div>
+              <h2>Delivered With Care</h2>
+              <p>
+                Your purchases are handled and delivered with precision,
+                arriving at your doorstep in perfect condition.
+              </p>
+            </div>
+            <div class="col colu">
+              <div class="cardicon">
+                <img src="/assets/logos/heart.svg" alt="" />
+              </div>
+              <h2>Excellent Service</h2>
+              <p>
+                Experience top-notch service with our dedicated team, ready to
+                assist you at every step of your shopping journey.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-4">
+        <nav class="navbar navbar-light shopbycategory">
+          <div class="container-fluid">
+            <a class="navbar-brand">Shop by Category</a>
+            <form class="d-flex">
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              <button class="btn btn-outline-success">view all</button>
+            </form>
+          </div>
+        </nav>
+
+        <div class="product-grid">
+          <!-- Product 1 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">Bamboo Jersey</div>
+            <div class="product-title">Jersey JET BLACK</div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹419.00</del> <span>₹299.00</span>
+            </div>
+            <div class="color-options">
+              <button>JET BLACK</button>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">MOJA Malaysian Georgette</div>
+            <div class="product-title">
+              MOJA Malaysian Georgette / Heavy Chiffon
+            </div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹395.00</del> <span>₹280.00</span>
+            </div>
+            <div class="color-options">
+              <button>SMOKE WHITE</button>
+              <button>BEIGE BROWN</button>
+              <button>DESSERT</button>
+              <button>ALMOND</button>
+              <button>MISTY PINK</button>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">MOJA Malaysian Georgette</div>
+            <div class="product-title">
+              MOJA Malaysian Georgette / Heavy Chiffon
+            </div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹395.00</del> <span>₹280.00</span>
+            </div>
+            <div class="color-options">
+              <button>Sky Blue</button>
+              <button>Bottle Green</button>
+              <button>Ocean Peacock</button>
+              <button>Purple</button>
+              <button>Denim</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">MOJA Malaysian Georgette</div>
+            <div class="product-title">
+              MOJA Malaysian Georgette / Heavy Chiffon
+            </div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹395.00</del> <span>₹280.00</span>
+            </div>
+            <div class="color-options">
+              <button>Sky Blue</button>
+              <button>Bottle Green</button>
+              <button>Ocean Peacock</button>
+              <button>Purple</button>
+              <button>Denim</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">MOJA Malaysian Georgette</div>
+            <div class="product-title">
+              MOJA Malaysian Georgette / Heavy Chiffon
+            </div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹395.00</del> <span>₹280.00</span>
+            </div>
+            <div class="color-options">
+              <button>Sky Blue</button>
+              <button>Bottle Green</button>
+              <button>Ocean Peacock</button>
+              <button>Purple</button>
+              <button>Denim</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">MOJA Malaysian Georgette</div>
+            <div class="product-title">
+              MOJA Malaysian Georgette / Heavy Chiffon
+            </div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹395.00</del> <span>₹280.00</span>
+            </div>
+            <div class="color-options">
+              <button>Sky Blue</button>
+              <button>Bottle Green</button>
+              <button>Ocean Peacock</button>
+              <button>Purple</button>
+              <button>Denim</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">MOJA Malaysian Georgette</div>
+            <div class="product-title">
+              MOJA Malaysian Georgette / Heavy Chiffon
+            </div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹395.00</del> <span>₹280.00</span>
+            </div>
+            <div class="color-options">
+              <button>Sky Blue</button>
+              <button>Bottle Green</button>
+              <button>Ocean Peacock</button>
+              <button>Purple</button>
+              <button>Denim</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-5">
+        <nav class="navbar navbar-light shopbycategory">
+          <div class="container-fluid">
+            <a class="navbar-brand">best Selling products</a>
+            <form class="d-flex">
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              <button class="btn btn-outline-success">view all</button>
+            </form>
+          </div>
+        </nav>
+
+        <div class="product-grid">
+          <!-- Product 1 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">Bamboo Jersey</div>
+            <div class="product-title">Jersey JET BLACK</div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹419.00</del> <span>₹299.00</span>
+            </div>
+            <div class="color-options">
+              <button>JET BLACK</button>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">MOJA Malaysian Georgette</div>
+            <div class="product-title">
+              MOJA Malaysian Georgette / Heavy Chiffon
+            </div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹395.00</del> <span>₹280.00</span>
+            </div>
+            <div class="color-options">
+              <button>SMOKE WHITE</button>
+              <button>BEIGE BROWN</button>
+              <button>DESSERT</button>
+              <button>ALMOND</button>
+              <button>MISTY PINK</button>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">MOJA Malaysian Georgette</div>
+            <div class="product-title">
+              MOJA Malaysian Georgette / Heavy Chiffon
+            </div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹395.00</del> <span>₹280.00</span>
+            </div>
+            <div class="color-options">
+              <button>Sky Blue</button>
+              <button>Bottle Green</button>
+              <button>Ocean Peacock</button>
+              <button>Purple</button>
+              <button>Denim</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">MOJA Malaysian Georgette</div>
+            <div class="product-title">
+              MOJA Malaysian Georgette / Heavy Chiffon
+            </div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹395.00</del> <span>₹280.00</span>
+            </div>
+            <div class="color-options">
+              <button>Sky Blue</button>
+              <button>Bottle Green</button>
+              <button>Ocean Peacock</button>
+              <button>Purple</button>
+              <button>Denim</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="/assets/images/background.png" alt="Product" />
+              <div class="sale-badge">Sale!</div>
+            </div>
+            <div class="product-category">MOJA Malaysian Georgette</div>
+            <div class="product-title">
+              MOJA Malaysian Georgette / Heavy Chiffon
+            </div>
+            <div class="product-rating">★★★★★</div>
+            <div class="product-price">
+              <del>₹395.00</del> <span>₹280.00</span>
+            </div>
+            <div class="color-options">
+              <button>Sky Blue</button>
+              <button>Bottle Green</button>
+              <button>Ocean Peacock</button>
+              <button>Purple</button>
+              <button>Denim</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-6">
+        <div class="col-12"><div class="divider-line-review">What Our Customers Say</div></div>
+        <div class="container">
+          <div class="col">
+            <div class="cardicon-2">
+              <img src="/assets/logos/star.png" alt="" />
+            </div>
+            <p>
+              Shop confidently with our secure payment options, ensuring the
+              safety of your transactions.
+            </p>
+            <div class="cardicon">
+              <img src="/assets/images/background.png" alt="" />
+            </div>
+            <div><p>name</p></div>
+          </div>
+          <div class="col">
+            <div class="cardicon-2">
+              <img src="/assets/logos/star.png" alt="" />
+            </div>
+            <p>
+              Your purchases are handled and delivered with precision, arriving
+              at your doorstep in perfect condition.
+            </p>
+            <div class="cardicon">
+              <img src="/assets/images/background.png" alt="" />
+            </div>
+            <div><p>name</p></div>
+          </div>
+          <div class="col">
+            <div class="cardicon-2">
+              <img src="/assets/logos/star.png" alt="" />
+            </div>
+            <p>
+              Experience top-notch service with our dedicated team, ready to
+              assist you at every step of your shopping journey.
+            </p>
+            <div class="cardicon">
+              <img src="/assets/images/background.png" alt="" />
+            </div>
+            <div><p>name</p></div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+  </body>
+</html>
