@@ -160,7 +160,7 @@
               <a
                 class="nav-link active"
                 aria-current="page"
-                href="accessories.html"
+                href="accessories.html?category=MalaysianGeorgette"
                 >Hijabs & Accessories</a
               >
             </li>
@@ -219,7 +219,9 @@
 
     <div class="product-page">
       <div class="product-gallery">
-        <img id="product-image" src="" alt="Product Image" />
+        <div class="img-zoom-container" id="zoom-container">
+          <img id="product-image" src="" alt="Product Image" />
+        </div>
         <div class="thumbnail-row" id="thumbnails">
           <!-- Thumbnails will go here if available -->
         </div>
@@ -256,18 +258,12 @@
 
     <div class="product-description">
       <h2>Description</h2>
-      <p>
-        This is a high-quality hijab made with love and attention to detail.
-        Lightweight, breathable, and perfect for all seasons.
-      </p>
+      <p id="product-description"></p>
+
       <h2>Specifications</h2>
-      <ul>
-        <li>Material: Premium Georgette</li>
-        <li>Length: 180 cm</li>
-        <li>Width: 70 cm</li>
-        <li>Care: Hand wash preferred</li>
-      </ul>
+      <ul id="product-specifications"></ul>
     </div>
+
     <div class="relationsip">
       <h2>Related Products</h2>
       <div id="related-products" class="related-grid"></div>
